@@ -1,0 +1,46 @@
+{
+  "allProjects": [
+    {
+      "id": 1,
+      "title": "SmartHome Automation System",
+      "desc": " Develop a comprehensive Smart Home Automation by Satya Nadela",
+      "deadline": "2024-01-17",
+      "team": "dave, hank, walt"
+    },
+    {
+      "id": 2,
+      "title": "Eco-Friendly Packaging",
+      "desc": " Launch an initiative to design and implement eco-friendly packaging solutions",
+      "deadline": "2024-02-09",
+      "team": "Me, luffy,zoro"
+    },
+    {
+      "id": 3,
+      "title": "AI-Powered Customer Support",
+      "desc": "Implement an AI-powered chatbot to enhance customer support efficiency",
+      "deadline": "2024-03-22",
+      "team": "Mark, Sunder, Sataya"
+    },
+    {
+      "id": 4,
+      "title": "Employee Wellness Program",
+      "desc": "Introduce a holistic Employee Wellness Program aimed at promoting physical and mental well-being. ",
+      "deadline": "2024-04-12",
+      "team": "leena, abhi, Honey singh"
+    },
+    {
+      "id": 5,
+      "title": "Augmented Reality Product",
+      "desc": "Integrate augmented reality technology into our e-commerce platform",
+      "deadline": "2024-09-12",
+      "team": "rohit, virat, shami"
+    },
+    {
+      "id": 6,
+      "title": "Global Community Outreach",
+      "desc": " Launch a community outreach initiative to give back to society. ",
+      "deadline": "2024-12-12",
+      "team": "Modi, Joe, Trump"
+    }
+  ]
+}

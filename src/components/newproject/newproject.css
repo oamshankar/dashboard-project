@@ -1,0 +1,136 @@
+.new-project {
+    padding: 3rem;
+        box-sizing: border-box;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        height: 60%;
+        width: 60%;
+        border-radius: 0.5rem;
+        box-shadow: 6px 8px 23px 0px rgba(128, 128, 128, 1);
+        background-color: white;
+        font-family: Poppins;
+}
+
+.new-project form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-project form .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+}
+
+.new-project form .inputs input {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    padding: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.new-project form input:focus {
+    outline: none;
+}
+
+.new-project form button {
+    width: 15rem;
+    border-radius: 0.5rem;
+    background-color: #fdc9ac;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    margin-top: 1rem;
+}
+
+.new-project .back {
+    width: 5rem;
+    border-radius: 0.5rem;
+    background-color: #fdc9ac;
+    border: none;
+    color: white;
+    font-family: Poppins;
+    margin-top: 1rem;
+}
+
+.new-project form span {
+    color: red;
+    font-size: 1rem;
+}
+
+.new-project form textarea {
+    outline: none;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    padding: 0.8rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    width: 25rem;
+    height: 7.5rem;
+}
+
+@media (max-width:960px){
+    .new-project {
+            padding: 3rem;
+            box-sizing: border-box;
+            position: absolute;
+            top: 25%;
+            left: 10%;
+            height: 50%;
+            width: 80%;
+            border-radius: 0.5rem;
+            box-shadow: 6px 8px 23px 0px rgba(128, 128, 128, 1);
+            background-color: white;
+            font-family: Poppins;
+        }
+
+        .new-project form .inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.2rem;
+        }
+}
+
+@media (max-width:480px) {
+
+    .new-project form .inputs input {
+        width: 7rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: 1px solid lightgray;
+        padding: 0.2rem;
+        margin-left: 0.5rem;
+    }
+
+    .new-project form .inputs {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .new-project form  label {
+        font-size: 0.7rem;
+    }
+
+        .new-project form span {
+            color: red;
+            font-size: 0.7rem;
+            margin-top: 0.5rem;
+        }
+
+        .new-project form textarea {
+            outline: none;
+            border-radius: 0.5rem;
+            border: 1px solid lightgray;
+            padding: 0.8rem;
+            margin-left: 0.5rem;
+            margin-top: 1rem;
+            width: 15rem;
+            height: 4rem;
+        }
+}

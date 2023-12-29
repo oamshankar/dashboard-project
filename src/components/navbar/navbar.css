@@ -1,0 +1,46 @@
+.navbar{
+    height: 4.5rem;
+    box-sizing: border-box;
+    padding: 1rem !important;
+    font-family: Poppins;
+}
+
+.navbar .nav-title span{
+    font-weight: 600;
+    font-family: Poppins;
+    color: #f79f70 !important;
+}
+
+.navbar .user {
+    display: flex;
+    font-size: 0.8rem;
+    gap: 0.8rem;
+}
+
+.user .trial span{
+    font-weight: 600;
+}
+
+.user .trial p{
+    color: #f79f70;
+}
+
+.user .vertical{
+    border-left: 0.1rem solid black;
+    height: 1.2rem;
+}
+
+.user img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width:480px){
+    .navbar .user {
+            display: flex;
+            font-size: 0.6rem;
+            gap: 0.4rem;
+        }
+}

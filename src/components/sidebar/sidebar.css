@@ -1,0 +1,37 @@
+.sidebar{
+    flex: 1.5;
+    box-sizing: border-box !important;
+    padding: 0.8rem;
+    font-family: Poppins;
+    position: relative;
+}
+
+.sidebar span{
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding:  0.5rem 0  0.5rem 0;
+    cursor: pointer;
+}
+
+.sidebar span h7 {
+    padding-left: 0.5rem;
+}
+.sidebar .side-up{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .side-down{
+    position: absolute;
+    bottom: 1rem;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:480px) {
+    .sidebar {
+        display: none;
+    }
+}

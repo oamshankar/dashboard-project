@@ -1,0 +1,17 @@
+.home{
+    flex: 8.5;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    height: 100vh;
+    position: relative;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+            display: none;
+    }
+    
+}
