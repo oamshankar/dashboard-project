@@ -1,6 +1,9 @@
+# Important Note on this Project
+This project file contains db.json file which was used for datbase locally on port 5000, but later the db.json was deployed as an api and was used in the fetch request therfore the db.json file in this project is of no use.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
