@@ -1,5 +1,9 @@
 # Important Note on this Project
 This project file contains db.json file which was used for datbase locally on port 5000, but later the db.json was deployed as an api and was used in the fetch request therfore the db.json file in this project is of no use.
+
+## Deployment
+
+This Project is deployed on: [https://dashboard-project-coral.vercel.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -63,10 +67,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
